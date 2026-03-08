@@ -679,6 +679,44 @@ export const CARRERAS: UserType.Carrera[] = [
       ],
     },
   },
+  {
+    id: "agronomia",
+    link: "https://agro.uba.ar/sites/default/files/documentos/cartelera/agro-plan-2017-con-res-cs-1096-23.pdf",
+    ano: 2017,
+    graph: require("./data/agronomia-2017.json"),
+    creditos: {
+      total: 234.5,
+      electivas: 13.5,
+      checkbox: [
+        {
+          nombre: "Taller de Práctica I",
+          nombrecorto: "Taller I",
+          bg: COLORS.habilitadas[50],
+          color: "habilitadas",
+        },
+        {
+          nombre: "Taller de Práctica II",
+          nombrecorto: "Taller II",
+          bg: COLORS.habilitadas[50],
+          color: "habilitadas",
+        },
+        {
+          nombre: "Taller de Práctica III",
+          nombrecorto: "Taller III",
+          bg: COLORS.habilitadas[50],
+          color: "habilitadas",
+        },
+      ],
+      materias: [
+        {
+          id: "TF",
+          nombrecorto: "Trabajo Final",
+          bg: COLORS.findecarrera[50],
+          color: "findecarrera",
+        },
+      ],
+    },
+  },
 ];
 
 // Acá se define como se le presentan al usuario la lista de planes/carreras
