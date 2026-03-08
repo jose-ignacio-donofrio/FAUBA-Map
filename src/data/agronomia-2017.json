@@ -1,0 +1,124 @@
+[
+  {
+    "id": "CBC_MAT",
+    "materia": "Matemática",
+    "creditos": 9,
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC_QUIM",
+    "materia": "Química",
+    "creditos": 6,
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC_SOC",
+    "materia": "ICSE",
+    "creditos": 4,
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC_BIO",
+    "materia": "Biología",
+    "creditos": 6,
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC_FIS",
+    "materia": "Física y Biofísica",
+    "creditos": 6,
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC_IPC",
+    "materia": "IPC",
+    "creditos": 4,
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC_MAT-CBC_QUIM-CBC_SOC-CBC_BIO-CBC_FIS-CBC_IPC"
+  },
+  {
+    "id": "QUIM_AP",
+    "materia": "Química Aplicada",
+    "creditos": 5,
+    "correlativas": "CBC",
+    "categoria": "Primer Año",
+    "level": 1
+  },
+  {
+    "id": "BIOMOL",
+    "materia": "Biomoléculas",
+    "creditos": 4,
+    "correlativas": "CBC",
+    "categoria": "Primer Año",
+    "level": 1
+  },
+  {
+    "id": "FIS_AP",
+    "materia": "Física Aplicada",
+    "creditos": 3,
+    "correlativas": "CBC",
+    "categoria": "Primer Año",
+    "level": 1
+  },
+  {
+    "id": "EST_GEN",
+    "materia": "Estadística General",
+    "creditos": 5,
+    "correlativas": "CBC",
+    "categoria": "Primer Año",
+    "level": 1
+  },
+  {
+    "id": "BOT_MOR",
+    "materia": "Botánica Morfológica",
+    "creditos": 4,
+    "correlativas": "CBC",
+    "categoria": "Primer Año",
+    "level": 1
+  },
+  {
+    "id": "BIOQ_AP",
+    "materia": "Bioquímica Aplicada",
+    "creditos": 4,
+    "correlativas": "BIOMOL",
+    "categoria": "Primer Año",
+    "level": 2
+  },
+  {
+    "id": "EDAFO",
+    "materia": "Edafología",
+    "creditos": 5,
+    "correlativas": "QUIM_AP-FIS_AP",
+    "categoria": "Primer Año",
+    "level": 2
+  },
+  {
+    "id": "CLIMA",
+    "materia": "Climatología y Agrometeorología",
+    "creditos": 4,
+    "correlativas": "EST_GEN",
+    "categoria": "Primer Año",
+    "level": 2
+  },
+  {
+    "id": "BOT_SIS",
+    "materia": "Botánica Sistemática",
+    "creditos": 4,
+    "correlativas": "BOT_MOR",
+    "categoria": "Primer Año",
+    "level": 2
+  }
+]
