@@ -738,6 +738,11 @@ export const PLANES = [
     planes: ["bioingenieria-2020"],
   },
   {
+    nombre: "Agronomía",
+    nombrecorto: "Agronomía",
+    planes: ["agronomia"],
+  },
+  {
     nombre: "Ingeniería en Energía Eléctrica",
     nombrecorto: "Electricista",
     planes: ["electricista", "energia-electrica-2020"],
