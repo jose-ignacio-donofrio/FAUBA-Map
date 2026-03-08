@@ -685,32 +685,20 @@ export const CARRERAS: UserType.Carrera[] = [
     ano: 2017,
     graph: require("./data/agronomia-2017.json"),
     creditos: {
-      total: 234.5,
-      electivas: 13.5,
+      total: 234,
+      electivas: 13,
       checkbox: [
         {
-          nombre: "Taller de Práctica I",
-          nombrecorto: "Taller I",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
-        {
-          nombre: "Taller de Práctica II",
-          nombrecorto: "Taller II",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
-        {
-          nombre: "Taller de Práctica III",
-          nombrecorto: "Taller III",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
+          nombre: "Prueba de nivel de idioma inglés",
+          nombrecorto: "Inglés",
+          bg: COLORS.enfinal[50],
+          color: "enfinal",
         },
       ],
       materias: [
         {
-          id: "TF",
-          nombrecorto: "Trabajo Final",
+          id: "TIF",
+          nombrecorto: "TIF",
           bg: COLORS.findecarrera[50],
           color: "findecarrera",
         },
