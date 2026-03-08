@@ -1,4 +1,4 @@
-# [FIUBA Map](https://fede.dm/FIUBA-Map/)
+# [FAUBA Map](https://fede.dm/FIUBA-Map/)
 
 Mapa de materias y sus correlativas de la Facultad de Ingeniería
 
