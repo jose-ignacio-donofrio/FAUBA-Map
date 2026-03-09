@@ -11,5 +11,8 @@ jobs:
     steps:
       - id: node-to-gh
         uses: fdelmazo/node-to-gh-action@v2
+        with:
+          # Agregamos esta línea para avisarle que ahora se llama FAUBA-Map
+          base_url: /FAUBA-Map/
       - id: typescript-check
         run: npx tsc --noEmit
