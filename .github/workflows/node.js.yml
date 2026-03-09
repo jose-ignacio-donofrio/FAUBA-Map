@@ -5,14 +5,21 @@ on:
     branches: [master]
 
 jobs:
-  node-to-gh:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    name: Build & Deploy to Github Pages
     steps:
-      - id: node-to-gh
-        uses: fdelmazo/node-to-gh-action@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧
+        run: |
+          npm install
+          npm run build
+        env:
+          PUBLIC_URL: /FAUBA-Map
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # Agregamos esta línea para avisarle que ahora se llama FAUBA-Map
-          base_url: /FAUBA-Map/
-      - id: typescript-check
-        run: npx tsc --noEmit
+          folder: build
+          branch: gh-pages
