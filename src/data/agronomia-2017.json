@@ -120,5 +120,13 @@
     "correlativas": "BOT_MOR",
     "categoria": "Primer Año",
     "level": 2
+  },
+  {
+  "id": "TF",
+  "materia": "Trabajo Final",
+  "creditos": 0,
+  "correlativas": "",
+  "categoria": "Fin de Carrera",
+  "level": 10
   }
 ]
