@@ -1,41 +1,41 @@
 [
   {
-    "id": "CBC_MAT",
+    "id": "CBC001",
     "materia": "Matemática",
     "creditos": 9,
     "categoria": "*CBC",
     "level": -2
   },
   {
-    "id": "CBC_QUIM",
+    "id": "CBC002",
     "materia": "Química",
     "creditos": 6,
     "categoria": "*CBC",
     "level": -2
   },
   {
-    "id": "CBC_SOC",
+    "id": "CBC006",
     "materia": "ICSE",
     "creditos": 4,
     "categoria": "*CBC",
     "level": -2
   },
   {
-    "id": "CBC_BIO",
+    "id": "CBC003",
     "materia": "Biología",
     "creditos": 6,
     "categoria": "*CBC",
     "level": -1
   },
   {
-    "id": "CBC_FIS",
+    "id": "CBC004",
     "materia": "Física y Biofísica",
     "creditos": 6,
     "categoria": "*CBC",
     "level": -1
   },
   {
-    "id": "CBC_IPC",
+    "id": "CBC005",
     "materia": "IPC",
     "creditos": 4,
     "categoria": "*CBC",
@@ -47,7 +47,7 @@
     "creditos": 0,
     "categoria": "CBC",
     "level": 0,
-    "correlativas": "CBC_MAT-CBC_QUIM-CBC_SOC-CBC_BIO-CBC_FIS-CBC_IPC"
+    "correlativas": "CBC001-CBC002-CBC003-CBC004-CBC005-CBC006"
   },
   {
     "id": "QUIM_AP",
