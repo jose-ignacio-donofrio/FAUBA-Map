@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/FAUBA-Map/static/js/main.9519b78c.js",
+    "main.js": "/FAUBA-Map/static/js/main.67fe5715.js",
     "index.html": "/FAUBA-Map/index.html",
-    "main.9519b78c.js.map": "/FAUBA-Map/static/js/main.9519b78c.js.map"
+    "main.67fe5715.js.map": "/FAUBA-Map/static/js/main.67fe5715.js.map"
   },
   "entrypoints": [
-    "static/js/main.9519b78c.js"
+    "static/js/main.67fe5715.js"
   ]
 }
