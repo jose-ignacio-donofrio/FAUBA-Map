@@ -6,7 +6,7 @@ Mapa de materias y sus correlativas de la Facultad de Agronomía
 
 ---
 
-La idea de este proyecto es presentar de una manera interactiva el plan de estudios de las carreras de la Facultad de Ingeniería, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
+La idea de este proyecto es presentar de una manera interactiva el plan de estudios de las carreras de la Facultad de Agronomía, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
 
 <a href='https://imgur.com/QkXbwFc'><img src='public/fmap.png'></a>
 
